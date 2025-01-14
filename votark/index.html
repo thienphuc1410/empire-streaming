@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Votark - votark.com.im</title>
+    <meta name="robots" content="nofollow, noindex, max-snippet:-1, max-video-preview:-1, max-image-preview:large"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="https://votark.pages.dev/images/favicon.png" type="image/x-icon">
+    <style>
+    body {
+        margin: 0;
+        background: #202020;
+    }
+    body:before {
+        content: "";
+        height: 50px;
+        width: 100%;
+        display: flex;
+        position: absolute;
+        background: #4c4c4c;
+    }
+    iframe#main-iframe { 
+        width: calc(100vw - 320px);
+        height: 100vh;
+        display:block;
+        margin: auto;
+        position: fixed;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .banner-ngang {
+        position: fixed;
+        left: 50%;  
+        transform:translateX(-50%); 
+        bottom: 0;
+        display: flex;
+    }
+    .ngang-mobi{
+        display: none;
+    }
+    .banner-sidebar {
+        position: fixed;
+        left: 0;
+        top: 50%;
+        transform:translateY(-50%);
+        display: flex;
+        flex-direction: column;
+    }
+    .banner-sidebar.banner-right {
+        right: 0;
+        left: auto;
+        padding-left: 17px;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        box-sizing: border-box;
+        width: 177px;
+        z-index: 1;
+        top: 0;
+        transform: inherit;
+    }
+
+    
+    @media only screen and (max-width: 1000px) {
+        iframe#main-iframe {
+            width: 100vw;
+        }
+        .banner-sidebar {
+            display: none!important;
+        }
+    }
+    @media only screen and (max-width: 728px) {
+
+        .banner-ngang {
+            display: none;
+        }
+        .ngang-mobi{
+            display: block;
+        }
+    }
+    ::-webkit-scrollbar {
+        width: 0px;
+        height: 0px;
+    }
+    .banner-sidebar.banner-right:before {
+        content: "";
+        height: 50px;
+        top: 0;
+        position: absolute;
+        width: 177px;
+        background: #4c4c4c;
+        right: 0;
+        z-index: 1;
+    }
+    .banner-sidebar.banner-right{
+        background: #202020;
+    }
+    .banner-sidebar.banner-right iframe {
+        z-index: 2;
+    }
+
+    .banner-sidebar button {
+        z-index: 2;
+    }
+    .header {
+        width: 160px;
+        height: 50px;
+        display: block;
+        margin: auto;
+        position: fixed;
+        left: calc(50vw);
+        transform: translateX(-508px);
+        z-index: 2;
+    }
+
+    .header a {
+        max-width: 1016px;
+        height: 50px;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .logo {
+        z-index:9999; position:fixed; top:4px; border-radius: 2px;
+        display: flex;
+        width: 160px;
+        height: 42px;
+        padding: 3px;
+        padding-top: 6px;
+        justify-content: space-around;
+        box-sizing: border-box;
+    }
+    
+    @media only screen and (max-width: 896px) {
+        .header {
+            left: calc(50vw - 80px);
+            transform: initial;
+        }
+    }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+
+        <a href="./"><div class="logo" id="logoid" style="background: linear-gradient(to right, rgb(62, 80, 94), rgb(65, 68, 69)); border: unset; display: flex;"> 
+    
+ 
+<div class="logoa" style="width: 20%; align-self: center; margin-left: 5px;"> 
+
+    
+<!--?xml version="1.0" ?-->
+
+<!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+<svg widtr="800px" hight="800px" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg">
+
+<g>
+
+<path d="m30 57c18.48-13.12 188.13-13.34 200.18 3.38s13.55 129.91-5.8 139.11-179.03 15.09-194.38-1.49-19.61-127 0-141z" fill="#2a2c2c" id="eee1"></path>
+
+<path d="m113.38 216.51c-77.15 0-86.17-9.74-89.24-13-13.97-15.11-17.58-75.9-13.94-111.13 2.33-22.58 7.3-36.28 15.17-41.87 3.63-2.57 11.84-6.28 41.33-8.81 18.68-1.6 42.08-2.37 65.87-2.17 24.5.21 47.51 1.46 64.79 3.51 29.07 3.45 36.18 8.36 39.31 12.69 7.59 10.52 9.66 40.46 10.23 57.37.93 27.89-1.08 54.5-5.36 71.19-3.18 12.38-7.54 19.51-13.72 22.45-13.35 6.35-68.33 9.27-102 9.69q-6.51.08-12.44.08zm-78.74-153c-.24.21-5.83 4.49-8.53 30.49-1.85 17.9-1.66 40.64.5 60.84 2.65 24.76 7.07 35.36 9.25 37.72 4 3.56 31.64 8.65 91 7.83 51.53-.71 87.59-5.14 94-8.09.33-.26 3.91-3.44 6.85-19.88 3-16.75 4.1-40.75 3-64.18-1.24-25.69-4.71-39.57-6.84-42.94-4.7-3.67-34.05-9.49-94.18-9.81-56.59-.3-90.17 4.62-95 8z" fill="#2a2c2c" id="eee1"></path>
+
+</g>
+
+<g>
+
+<path d="m30 57c18.48-13.12 188.13-13.34 200.18 3.38s13.55 129.91-5.8 139.11-179.03 15.09-194.38-1.49-19.61-127 0-141z" fill="#3e505d" id="eee3"></path>
+
+</g>
+
+<g>
+
+<path d="m106.64 88.63c-5.53 3.52-3.88 75.56-.68 79.8s63.75-34 63.8-40.81-57.58-42.51-63.12-38.99z" fill="#ffffff" id="eee4"></path>
+
+</g>
+
+</svg> 
+  </div>
+  
+  <div class="logob" id="nomsiteidpourtextarea" style="width: 70%; margin-left: 13px; align-self: center; margin-right: 5px;">
+    
+       <svg widtr="377.637" heighrt="73.063" viewBox="0 0 377.637 73.063" xmlns="http://www.w3.org/2000/svg"><g id="svgGroup" class="logo1" stroke-linecap="round" fill-rule="evenodd" font-size="9pt" stroke="#000" stroke-widtr="0.25mm" fill="#ffffff" style="stroke: rgb(0, 0, 0); fill: rgb(255, 255, 255); stroke-width: 0px;"><path d="M 345.41 72.08 L 335.4 45.81 L 326.709 53.964 L 323.535 72.08 L 306.836 72.08 L 319.141 0.986 L 335.889 0.986 L 330.566 31.406 L 337.5 22.958 L 355.957 0.986 L 377.637 0.986 L 348.145 33.164 L 364.502 72.08 L 345.41 72.08 Z M 18.066 0.986 L 23.633 52.548 L 45.41 0.986 L 64.551 0.986 L 30.176 72.08 L 11.914 72.08 L 0 0.986 L 18.066 0.986 Z M 281.25 72.08 L 273.438 46.982 L 264.16 46.982 L 259.766 72.08 L 243.066 72.08 L 255.371 0.986 L 280.469 1.035 A 41.439 41.439 0 0 1 287.626 1.613 Q 294.617 2.841 299.048 6.674 A 16.768 16.768 0 0 1 304.904 18.83 Q 304.948 19.534 304.948 20.263 A 26.017 26.017 0 0 1 304.883 22.08 A 27.986 27.986 0 0 1 303.83 28.115 A 20.38 20.38 0 0 1 300.439 34.848 A 23.671 23.671 0 0 1 294.336 40.336 A 31.729 31.729 0 0 1 289.502 42.832 L 299.072 71.25 L 299.072 72.08 L 281.25 72.08 Z M 187.305 0.986 L 185.01 14.218 L 164.307 14.218 L 154.297 72.08 L 137.549 72.08 L 147.607 14.218 L 127.246 14.218 L 129.59 0.986 L 187.305 0.986 Z M 219.971 72.08 L 218.262 58.798 L 195.557 58.798 L 189.258 72.08 L 170.85 72.08 L 208.496 0.986 L 224.219 0.986 L 237.354 72.08 L 219.971 72.08 Z M 86.768 73.056 Q 75.684 72.812 68.994 65.732 A 26.688 26.688 0 0 1 62.808 54.697 A 38.199 38.199 0 0 1 61.426 46.787 A 37.122 37.122 0 0 1 61.304 44.154 Q 61.248 39.527 62.216 33.783 A 84.141 84.141 0 0 1 62.354 32.993 A 48.83 48.83 0 0 1 66.725 19.634 A 45.848 45.848 0 0 1 67.383 18.369 A 38.204 38.204 0 0 1 73.357 10.072 A 34.363 34.363 0 0 1 76.416 7.236 A 30.828 30.828 0 0 1 96.569 0.002 A 36.072 36.072 0 0 1 97.314 0.009 A 29.043 29.043 0 0 1 104.132 0.919 A 23.273 23.273 0 0 1 110.034 3.354 A 22.907 22.907 0 0 1 117.898 11.101 A 27.706 27.706 0 0 1 118.75 12.558 A 31.541 31.541 0 0 1 122.1 22.388 A 38.705 38.705 0 0 1 122.559 26.23 Q 122.949 31.65 121.899 38.559 A 50.81 50.81 0 0 1 118.042 51.743 A 40.296 40.296 0 0 1 110.791 62.802 Q 106.348 67.587 100.317 70.395 A 28.683 28.683 0 0 1 90.964 72.897 Q 89.279 73.063 87.51 73.063 A 38.101 38.101 0 0 1 86.768 73.056 Z M 96.527 13.4 A 13.13 13.13 0 0 0 96.338 13.388 A 15.435 15.435 0 0 0 95.578 13.369 Q 89.906 13.369 85.898 17.665 A 17.866 17.866 0 0 0 84.863 18.881 A 23.411 23.411 0 0 0 81.811 24.223 Q 80.687 26.899 79.909 30.198 A 58 58 0 0 0 78.857 36.093 Q 77.93 43.125 78.174 46.982 A 25.377 25.377 0 0 0 78.727 51.523 Q 80.488 59.367 87.587 59.719 A 13.193 13.193 0 0 0 87.744 59.726 Q 93.395 60.004 97.552 55.91 A 16.825 16.825 0 0 0 97.998 55.454 A 20.515 20.515 0 0 0 101.3 50.664 Q 102.442 48.421 103.289 45.665 A 43.536 43.536 0 0 0 104.199 42.172 Q 105.85 34.619 105.85 28.074 A 50.122 50.122 0 0 0 105.811 26.083 Q 105.327 14.006 96.527 13.4 Z M 269.824 14.218 L 266.406 33.75 L 276.172 33.847 A 13.81 13.81 0 0 0 279.886 33.366 A 11.364 11.364 0 0 0 283.13 31.894 A 10.757 10.757 0 0 0 287.354 26.547 A 14.201 14.201 0 0 0 288.109 23.681 Q 288.246 22.776 288.246 21.887 A 11.406 11.406 0 0 0 288.086 19.98 Q 287.315 15.704 283.445 14.619 A 10.387 10.387 0 0 0 281.152 14.267 L 269.824 14.218 Z M 213.428 21.054 L 201.807 45.566 L 216.553 45.566 L 213.428 21.054 Z" vector-effect="non-scaling-stroke"></path></g></svg>     
+        
+      
+  </div>
+
+</div></a>
+
+    </div>
+
+    <div class="banner-sidebar banner_wrapper banner-right"> 
+
+      <script type="text/javascript">
+      atOptions = {
+        'key' : '80f664d17c876ecf4fb70c1c68bcab4c',
+        'format' : 'iframe',
+        'height' : 300,
+        'width' : 160,
+        'params' : {}
+    };
+    </script>
+    <script type="text/javascript" src="//smellyla.com/80f664d17c876ecf4fb70c1c68bcab4c/invoke.js"></script>
+
+</div>
+
+<iframe id="main-iframe" src="https://vorpaz.com/nt30eo/home/vorpaz/" sandbox="allow-same-origin allow-scripts" allowfullscreen frameborder="0"></iframe>
+
+<div class="banner-ngang banner_wrapper ngang-pc"> 
+
+    <script type="text/javascript">
+    atOptions = {
+        'key' : '41d350d9e21105712b57d1563114ea09',
+        'format' : 'iframe',
+        'height' : 90,
+        'width' : 728,
+        'params' : {}
+    };
+    </script>
+    
+    <script type="text/javascript" src="//smellyla.com/41d350d9e21105712b57d1563114ea09/invoke.js"></script>
+
+</div>
+
+<div class="banner-sidebar banner_wrapper banner-left"> 
+
+   <script type="text/javascript">
+   atOptions = {
+    'key' : '6d8857b7359a66fe6457a82fa0fe58b7',
+    'format' : 'iframe',
+    'height' : 600,
+    'width' : 160,
+    'params' : {}
+};
+</script>
+<script type="text/javascript" src="//smellyla.com/6d8857b7359a66fe6457a82fa0fe58b7/invoke.js"></script>
+
+</div>
+
+<script>
+        
+        var bannerWrappers = document.querySelectorAll('.banner_wrapper');
+
+        
+        bannerWrappers.forEach(function(bannerWrapper) {
+        
+        var xButton = document.createElement('button');
+
+        
+        xButton.innerHTML = '&times;';
+
+        
+        xButton.style.position = 'absolute';
+        xButton.style.top = '-5px'; 
+        xButton.style.right = '-5px'; 
+        xButton.style.padding = '0 5px'; 
+        xButton.style.border = 'none';
+        xButton.style.backgroundColor = '#ffffff'; 
+        xButton.style.color = '#000'; 
+        xButton.style.fontWeight = 'bold';
+        xButton.style.fontSize = '25px'; 
+        xButton.style.lineHeight = '24px'; 
+        xButton.style.cursor = 'pointer';
+        xButton.style.boxShadow = 'rgb(0, 0, 0) 0px 2px 4px';
+        xButton.style.borderRadius = '2px';
+        xButton.style.transition = 'background-color 0.3s'; 
+
+        
+        xButton.style.display = 'none';
+        setTimeout(function() {
+            xButton.style.display = 'block';
+        }, 3000);
+
+        
+        xButton.addEventListener('mouseover', function() {
+        xButton.style.backgroundColor = '#e0e0e0'; 
+    });
+
+        xButton.addEventListener('mouseout', function() {
+        xButton.style.backgroundColor = '#ffffff'; 
+    });
+
+    
+    xButton.addEventListener('click', function() {
+    
+    var iframes = bannerWrapper.querySelectorAll('iframe');
+    iframes.forEach(function(iframe) {
+        iframe.style.display = 'none';
+    });
+
+    
+    xButton.style.display = 'none';
+});
+
+        
+        bannerWrapper.appendChild(xButton);
+    });
+</script>
+</body>
+</html>
+
+
