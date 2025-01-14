@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>kobiom - kobiom.com.im</title>
+    <meta name="robots" content="nofollow, noindex, max-snippet:-1, max-video-preview:-1, max-image-preview:large"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="https://kobiom.pages.dev/images/favicon.png" type="image/x-icon">
+    <style>
+    body {
+        margin: 0;
+        background: #202020;
+    }
+    body:before {
+        content: "";
+        height: 50px;
+        width: 100%;
+        display: flex;
+        position: absolute;
+        background: #4c4c4c;
+    }
+    iframe#main-iframe { 
+        width: calc(100vw - 320px);
+        height: 100vh;
+        display:block;
+        margin: auto;
+        position: fixed;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .banner-ngang {
+        position: fixed;
+        left: 50%;  
+        transform:translateX(-50%); 
+        bottom: 0;
+        display: flex;
+    }
+    .ngang-mobi{
+        display: none;
+    }
+    .banner-sidebar {
+        position: fixed;
+        left: 0;
+        top: 50%;
+        transform:translateY(-50%);
+        display: flex;
+        flex-direction: column;
+    }
+    .banner-sidebar.banner-right {
+        right: 0;
+        left: auto;
+        padding-left: 17px;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        box-sizing: border-box;
+        width: 177px;
+        z-index: 1;
+        top: 0;
+        transform: inherit;
+    }
+
+    
+    @media only screen and (max-width: 1000px) {
+        iframe#main-iframe {
+            width: 100vw;
+        }
+        .banner-sidebar {
+            display: none!important;
+        }
+    }
+    @media only screen and (max-width: 728px) {
+
+        .banner-ngang {
+            display: none;
+        }
+        .ngang-mobi{
+            display: block;
+        }
+    }
+    ::-webkit-scrollbar {
+        width: 0px;
+        height: 0px;
+    }
+    .banner-sidebar.banner-right:before {
+        content: "";
+        height: 50px;
+        top: 0;
+        position: absolute;
+        width: 177px;
+        background: #4c4c4c;
+        right: 0;
+        z-index: 1;
+    }
+    .banner-sidebar.banner-right{
+        background: #202020;
+    }
+    .banner-sidebar.banner-right iframe {
+        z-index: 2;
+    }
+
+    .banner-sidebar button {
+        z-index: 2;
+    }
+    .header {
+        width: 160px;
+        height: 50px;
+        display: block;
+        margin: auto;
+        position: fixed;
+        left: calc(50vw);
+        transform: translateX(-508px);
+        z-index: 2;
+    }
+
+    .header a {
+        max-width: 1016px;
+        height: 50px;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .logo {
+        z-index:9999; position:fixed; top:4px; border-radius: 2px;
+        display: flex;
+        width: 160px;
+        height: 42px;
+        padding: 3px;
+        padding-top: 6px;
+        justify-content: space-around;
+        box-sizing: border-box;
+    }
+    
+    @media only screen and (max-width: 896px) {
+        .header {
+            left: calc(50vw - 80px);
+            transform: initial;
+        }
+    }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+
+        <a href="./"><div class="logo" id="logoid" style="background: linear-gradient(to right, rgb(35, 55, 41), rgb(41, 41, 41)); border: 1px solid rgb(35, 55, 41);"> 
+    
+ 
+<div class="logoa" style="width: 20%; align-self: center; margin-left: 5px;"> 
+
+    
+<!--?xml version="1.0" ?--><!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+<svg widtr="800px" hight="800px" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg"><path d="m220.41 74.48c-8.06-10.14-28.14-12.09-33.6-12.7s-6.82-2.2-4.3-6.21 22.35-24.87 22.35-24.87c2.37-3.18-6.84-8.25-9.18-4.69 0 0-27.77 30.38-34.65 32.59-1.32.42-69.15 1.87-71.29.57-5.27-3.17-22.88-27.93-22.88-27.93-2.45-2.93-11.66 1.34-9.18 4.69 0 0 12.13 18.47 14.49 21.93s.85 5.41-4.36 6.08-25 1-34 14.78c-8.24 12.71-10.83 117 1 129.16 9.07 9.31 13.68 7.55 19.45 11.26 3.9 2.59 2 14.38 6.2 18.71s37.75 6.06 67.92 5.7 62.42-2.28 66.48-5.7 2.26-17.26 6-19.42c3.66-2.51 13.26-1.94 21-10.55 11.41-12.55 7.98-121.55-1.45-133.4z" fill="#5f8c6a" id="eee1"></path><path d="m120.39 251.6c-13.29 0-26-.4-36.32-1.16-22.43-1.64-26.81-4.37-29.38-7-3.91-4-4.73-9.84-5.39-14.49-.16-1.13-.38-2.7-.61-3.72a28.72 28.72 0 0 0 -2.83-1.06c-4-1.36-9.53-3.21-16.8-10.68-7.09-7.28-10.54-30.83-10.27-70 .07-9.5.78-57.47 8.32-69.1 8.89-13.74 25.51-16.84 34.55-17.86-4.12-6.23-9.82-14.9-10.6-16.09-2.77-4-2.68-10.18 2.83-14.52s14.36-5.48 19.1.19q.2.24.38.49c7 9.79 15.9 21.29 19.61 24.92 10.17.54 56.67-.25 65.88-.77 4.67-2.93 19.14-17.31 30.61-29.83a11.23 11.23 0 0 1 9.88-4.08c4.68.37 10.62 3.39 12.92 8.46a9.94 9.94 0 0 1 -1 10.18 7.87 7.87 0 0 1 -.62.74c-6 6.28-12.65 13.49-17 18.36 9.43 1.38 25 4.87 33 14.93 8.41 10.57 10 57.21 10.29 71.26.57 27.85-.54 63-9.09 72.49-6.82 7.55-14.88 9.72-19.7 11l-1.7.47c-.22 1.15-.42 2.73-.57 3.9-.7 5.45-1.5 11.63-5.9 15.34-2.54 2.14-6.6 4.2-28 5.85-11.91.92-27.38 1.53-43.55 1.73-2.67.03-5.37.05-8.04.05zm-54.27-19.72c6.24 2.11 30.66 4 62.15 3.67 33.87-.41 54.88-2.45 61-4 .32-1.39.6-3.54.79-5 .71-5.54 1.52-11.81 6.59-14.92a24.85 24.85 0 0 1 7.39-2.85c4.06-1.09 8.27-2.22 11.91-6.22 2.37-3.45 5.82-23.12 5-61.54-.73-35.7-4.52-57.83-6.88-61.67-2.68-3.3-9.67-7.62-27.7-9.6l-.47-.05c-2.45-.27-8.94-1-11.64-6.6a9.94 9.94 0 0 1 -1-3.47c-4 3.39-7.47 5.78-9.85 6.55-1 .32-2.5.8-37.67 1.31-36.79.56-37.74-.04-40.18-1.49a25.53 25.53 0 0 1 -4.43-3.8 10.16 10.16 0 0 1 -.77 2.64c-1.76 3.92-5.64 6.3-11.54 7.05-.63.08-1.45.16-2.42.25-6.48.6-20 1.85-25.87 10.94-2.22 3.85-5.47 26.84-5.74 59.88-.3 37.21 3.38 56.14 5.8 59.41 4.54 4.63 7.12 5.51 10.41 6.63a31.67 31.67 0 0 1 7.59 3.43l.1.06c4.93 3.28 5.75 9.08 6.48 14.21a38.84 38.84 0 0 0  .95 5.18z" fill="#5f8c6a" id="eee1"></path><path d="m220.41 74.48c-8.06-10.14-28.14-12.09-33.6-12.7s-6.82-2.2-4.3-6.21 22.35-24.87 22.35-24.87c2.37-3.18-6.84-8.25-9.18-4.69 0 0-27.77 30.38-34.65 32.59-1.32.42-69.15 1.87-71.29.57-5.27-3.17-22.88-27.93-22.88-27.93-2.45-2.93-11.66 1.34-9.18 4.69 0 0 12.13 18.47 14.49 21.93s.85 5.41-4.36 6.08-25 1-34 14.78c-8.24 12.71-10.83 117 1 129.16 9.07 9.31 13.68 7.55 19.45 11.26 3.9 2.59 2 14.38 6.2 18.71s37.75 6.06 67.92 5.7 62.42-2.28 66.48-5.7 2.26-17.26 6-19.42c3.66-2.51 13.26-1.94 21-10.55 11.41-12.55 7.98-121.55-1.45-133.4z" fill="#2f3731" id="eee3"></path><path d="m225.44 216.77s.12-.06 0 0-.01.01 0 0z" fill="#2f3731" id="eee3"></path><path d="m200.18 94.85c-10.45-13.09-134.62-13.12-145.09 0-7.25 9.09-9.79 85.68-1.2 95.54 11.54 13.26 133.28 10.74 147.5 0 10.42-7.88 6.05-86.45-1.21-95.54z" fill="#252826" id="eee5"></path><path d="m121.39 203.42c-22 0-62.58-1.27-70.52-10.4-6.54-7.51-6.6-38-6.32-50.77.15-7 1.22-42.13 7.41-49.89 8.39-10.52 60.04-11.36 75.63-11.36 15.64 0 67.32.82 75.71 11.33 6.88 8.62 10.19 58.48 7.08 83.28-1.61 12.85-4.53 16.4-6.59 18-9 6.79-47.16 9.53-77.12 9.81zm6.2-114.42c-43.27 0-66.59 4.89-69.37 8.34-1.94 2.44-5.09 18.45-5.67 45.07-.55 25.59 1.83 42.45 4.35 45.35 3.47 4 29.07 8 69.69 7.63 39-.37 67.43-4.45 72.38-8.19 0 0 2.19-1.81 3.54-13.14 3.2-26.72-1.36-71.57-5.46-76.71-2.75-3.46-26.13-8.35-69.46-8.35z" fill="#5f8c6a" id="eee1"></path><path d="m56.81 13.09c-.38-1.33-4.81-7.81-6.23-8.82s-6.48 3.38-6.47 4.49 5 7.93 6.23 8.82 6.84-3.16 6.47-4.49z" fill="#5f8c6a" id="eee1"></path><path d="m40.43 41.26c-1.33.39-7.78 4.86-8.77 6.29s3.41 6.45 4.53 6.45 7.89-5 8.77-6.29-3.21-6.84-4.53-6.45z" fill="#5f8c6a" id="eee1"></path><path d="m42.69 27.33c2.53 1.37 1.54 7.23-1.59 7.42s-19.2-2.53-21.37-3.69-1.84-7 1.59-7.42 18.59 2.19 21.37 3.69z" fill="#5f8c6a" id="eee1"></path><path d="m99.6 15.41c2.33 0 4.72 5.42 2.81 7s-13.65 6.84-15.65 6.87-4.79-5.07-2.81-7 13.05-6.86 15.65-6.87z" fill="#5f8c6a" id="eee1"></path><path d="m183.85 14.74c-.95-1-4.24-8.14-4.37-9.87s6.22-3.82 7.17-3.25 4.24 8.38 4.35 9.87-6.21 4.25-7.15 3.25z" fill="#5f8c6a" id="eee1"></path><path d="m218.27 41.26c1.33.39 7.78 4.86 8.77 6.29s-3.42 6.45-4.53 6.45-7.89-5-8.77-6.29 3.2-6.84 4.53-6.45z" fill="#5f8c6a" id="eee1"></path><path d="m220.78 26.66c-2.84 1.43-1.86 7.28 1.62 7.42s21.44-2.93 23.88-4.14 2.2-7-1.62-7.42-20.76 2.57-23.88 4.14z" fill="#5f8c6a" id="eee1"></path><path d="m158.67 18.78c-2.16.88-2.28 6.82.12 7.59s15.23 1.07 17.09.33 2.47-6.52-.12-7.59-14.76-1.3-17.09-.33z" fill="#5f8c6a" id="eee1"></path></svg> 
+  </div>
+  
+  <div class="logob" id="nomsiteidpourtextarea" style="width: 70%; margin-left: 13px; align-self: center; margin-right: 5px;">
+    
+       <svg widtr="375.635" heighrt="73.063" viewBox="0 0 375.635 73.063" xmlns="http://www.w3.org/2000/svg"><g id="svgGroup" class="logo1" stroke-linecap="round" fill-rule="evenodd" font-size="9pt" stroke="#000" stroke-widtr="0.25mm" fill="#9ebda6" style="stroke: rgb(0, 0, 0); fill: rgb(158, 189, 166); stroke-width: 0px;"><path d="M 301.074 0.986 L 322.754 0.986 L 329.541 50.302 L 353.369 0.986 L 375.635 0.986 L 363.33 72.08 L 346.533 72.08 L 349.561 54.648 L 356.787 22.519 L 331.885 72.08 L 320.801 72.08 L 312.744 20.664 L 308.252 56.308 L 305.469 72.08 L 288.77 72.08 L 301.074 0.986 Z M 38.574 72.08 L 28.564 45.81 L 19.873 53.964 L 16.699 72.08 L 0 72.08 L 12.305 0.986 L 29.053 0.986 L 23.73 31.406 L 30.664 22.958 L 49.121 0.986 L 70.801 0.986 L 41.309 33.164 L 57.666 72.08 L 38.574 72.08 Z M 157.031 72.08 L 128.516 72.08 L 140.82 0.986 L 163.428 1.035 A 57.571 57.571 0 0 1 170.416 1.456 Q 178.661 2.498 183.398 6.113 Q 189.99 11.142 189.404 20.224 A 17.445 17.445 0 0 1 186.689 28.798 Q 183.609 33.505 177.1 36.142 Q 181.25 37.607 183.569 41.44 Q 185.889 45.273 185.547 50.644 Q 184.863 60.947 177.417 66.513 Q 171.204 71.158 161.167 71.927 A 54.147 54.147 0 0 1 157.031 72.08 Z M 90.381 73.056 Q 79.297 72.812 72.607 65.732 A 26.688 26.688 0 0 1 66.421 54.697 A 38.199 38.199 0 0 1 65.039 46.787 A 37.122 37.122 0 0 1 64.917 44.154 Q 64.861 39.527 65.83 33.783 A 84.141 84.141 0 0 1 65.967 32.993 A 48.83 48.83 0 0 1 70.338 19.634 A 45.848 45.848 0 0 1 70.996 18.369 A 38.204 38.204 0 0 1 76.97 10.072 A 34.363 34.363 0 0 1 80.029 7.236 A 30.828 30.828 0 0 1 100.183 0.002 A 36.072 36.072 0 0 1 100.928 0.009 A 29.043 29.043 0 0 1 107.745 0.919 A 23.273 23.273 0 0 1 113.647 3.354 A 22.907 22.907 0 0 1 121.511 11.101 A 27.706 27.706 0 0 1 122.363 12.558 A 31.541 31.541 0 0 1 125.713 22.388 A 38.705 38.705 0 0 1 126.172 26.23 Q 126.563 31.65 125.513 38.559 A 50.81 50.81 0 0 1 121.655 51.743 A 40.296 40.296 0 0 1 114.404 62.802 Q 109.961 67.587 103.931 70.395 A 28.683 28.683 0 0 1 94.577 72.897 Q 92.892 73.063 91.123 73.063 A 38.101 38.101 0 0 1 90.381 73.056 Z M 250.635 73.056 Q 239.551 72.812 232.861 65.732 A 26.688 26.688 0 0 1 226.675 54.697 A 38.199 38.199 0 0 1 225.293 46.787 A 37.122 37.122 0 0 1 225.171 44.154 Q 225.115 39.527 226.083 33.783 A 84.141 84.141 0 0 1 226.221 32.993 A 48.83 48.83 0 0 1 230.592 19.634 A 45.848 45.848 0 0 1 231.25 18.369 A 38.204 38.204 0 0 1 237.224 10.072 A 34.363 34.363 0 0 1 240.283 7.236 A 30.828 30.828 0 0 1 260.437 0.002 A 36.072 36.072 0 0 1 261.182 0.009 A 29.043 29.043 0 0 1 267.999 0.919 A 23.273 23.273 0 0 1 273.901 3.354 A 22.907 22.907 0 0 1 281.765 11.101 A 27.706 27.706 0 0 1 282.617 12.558 A 31.541 31.541 0 0 1 285.967 22.388 A 38.705 38.705 0 0 1 286.426 26.23 Q 286.816 31.65 285.767 38.559 A 50.81 50.81 0 0 1 281.909 51.743 A 40.296 40.296 0 0 1 274.658 62.802 Q 270.215 67.587 264.185 70.395 A 28.683 28.683 0 0 1 254.831 72.897 Q 253.146 73.063 251.377 73.063 A 38.101 38.101 0 0 1 250.635 73.056 Z M 221.68 0.986 L 209.375 72.08 L 192.676 72.08 L 205.029 0.986 L 221.68 0.986 Z M 100.141 13.4 A 13.13 13.13 0 0 0 99.951 13.388 A 15.435 15.435 0 0 0 99.191 13.369 Q 93.519 13.369 89.511 17.665 A 17.866 17.866 0 0 0 88.477 18.881 A 23.411 23.411 0 0 0 85.424 24.223 Q 84.3 26.899 83.522 30.198 A 58 58 0 0 0 82.471 36.093 Q 81.543 43.125 81.787 46.982 A 25.377 25.377 0 0 0 82.34 51.523 Q 84.101 59.367 91.2 59.719 A 13.193 13.193 0 0 0 91.357 59.726 Q 97.008 60.004 101.165 55.91 A 16.825 16.825 0 0 0 101.611 55.454 A 20.515 20.515 0 0 0 104.913 50.664 Q 106.056 48.421 106.903 45.665 A 43.536 43.536 0 0 0 107.812 42.172 Q 109.463 34.619 109.463 28.074 A 50.122 50.122 0 0 0 109.424 26.083 Q 108.941 14.006 100.141 13.4 Z M 260.395 13.4 A 13.13 13.13 0 0 0 260.205 13.388 A 15.435 15.435 0 0 0 259.445 13.369 Q 253.773 13.369 249.765 17.665 A 17.866 17.866 0 0 0 248.73 18.881 A 23.411 23.411 0 0 0 245.678 24.223 Q 244.554 26.899 243.776 30.198 A 58 58 0 0 0 242.725 36.093 Q 241.797 43.125 242.041 46.982 A 25.377 25.377 0 0 0 242.594 51.523 Q 244.355 59.367 251.454 59.719 A 13.193 13.193 0 0 0 251.611 59.726 Q 257.262 60.004 261.419 55.91 A 16.825 16.825 0 0 0 261.865 55.454 A 20.515 20.515 0 0 0 265.167 50.664 Q 266.31 48.421 267.157 45.665 A 43.536 43.536 0 0 0 268.066 42.172 Q 269.717 34.619 269.717 28.074 A 50.122 50.122 0 0 0 269.678 26.083 Q 269.195 14.006 260.395 13.4 Z M 162.793 41.904 L 150.488 41.855 L 147.51 58.896 L 157.52 58.945 A 15.659 15.659 0 0 0 161.07 58.562 A 11.387 11.387 0 0 0 165.332 56.625 A 9.111 9.111 0 0 0 169.034 50.509 A 11.083 11.083 0 0 0 169.043 50.449 Q 170.152 43.834 165.349 42.328 A 10.326 10.326 0 0 0 162.793 41.904 Z M 155.273 14.218 L 152.393 30.625 L 160.254 30.673 Q 171.143 30.429 172.461 22.324 A 12.462 12.462 0 0 0 172.569 21.311 Q 172.959 15.172 166.194 14.383 A 18.42 18.42 0 0 0 164.16 14.267 L 155.273 14.218 Z" vector-effect="non-scaling-stroke"></path></g></svg>     
+        
+      
+  </div>
+
+</div></a>
+
+    </div>
+
+    <div class="banner-sidebar banner_wrapper banner-right"> 
+
+      <script type="text/javascript">
+      atOptions = {
+        'key' : '80f664d17c876ecf4fb70c1c68bcab4c',
+        'format' : 'iframe',
+        'height' : 300,
+        'width' : 160,
+        'params' : {}
+    };
+    </script>
+    <script type="text/javascript" src="//smellyla.com/80f664d17c876ecf4fb70c1c68bcab4c/invoke.js"></script>
+
+</div>
+
+<iframe id="main-iframe" src="https://vorpaz.com/nt30eo/home/vorpaz/" sandbox="allow-same-origin allow-scripts" allowfullscreen frameborder="0"></iframe>
+
+<div class="banner-ngang banner_wrapper ngang-pc"> 
+
+    <script type="text/javascript">
+    atOptions = {
+        'key' : '41d350d9e21105712b57d1563114ea09',
+        'format' : 'iframe',
+        'height' : 90,
+        'width' : 728,
+        'params' : {}
+    };
+    </script>
+    
+    <script type="text/javascript" src="//smellyla.com/41d350d9e21105712b57d1563114ea09/invoke.js"></script>
+
+</div>
+
+<div class="banner-sidebar banner_wrapper banner-left"> 
+
+   <script type="text/javascript">
+   atOptions = {
+    'key' : '6d8857b7359a66fe6457a82fa0fe58b7',
+    'format' : 'iframe',
+    'height' : 600,
+    'width' : 160,
+    'params' : {}
+};
+</script>
+<script type="text/javascript" src="//smellyla.com/6d8857b7359a66fe6457a82fa0fe58b7/invoke.js"></script>
+
+</div>
+
+<script>
+        
+        var bannerWrappers = document.querySelectorAll('.banner_wrapper');
+
+        
+        bannerWrappers.forEach(function(bannerWrapper) {
+        
+        var xButton = document.createElement('button');
+
+        
+        xButton.innerHTML = '&times;';
+
+        
+        xButton.style.position = 'absolute';
+        xButton.style.top = '-5px'; 
+        xButton.style.right = '-5px'; 
+        xButton.style.padding = '0 5px'; 
+        xButton.style.border = 'none';
+        xButton.style.backgroundColor = '#ffffff'; 
+        xButton.style.color = '#000'; 
+        xButton.style.fontWeight = 'bold';
+        xButton.style.fontSize = '25px'; 
+        xButton.style.lineHeight = '24px'; 
+        xButton.style.cursor = 'pointer';
+        xButton.style.boxShadow = 'rgb(0, 0, 0) 0px 2px 4px';
+        xButton.style.borderRadius = '2px';
+        xButton.style.transition = 'background-color 0.3s'; 
+
+        
+        xButton.style.display = 'none';
+        setTimeout(function() {
+            xButton.style.display = 'block';
+        }, 3000);
+
+        
+        xButton.addEventListener('mouseover', function() {
+        xButton.style.backgroundColor = '#e0e0e0'; 
+    });
+
+        xButton.addEventListener('mouseout', function() {
+        xButton.style.backgroundColor = '#ffffff'; 
+    });
+
+    
+    xButton.addEventListener('click', function() {
+    
+    var iframes = bannerWrapper.querySelectorAll('iframe');
+    iframes.forEach(function(iframe) {
+        iframe.style.display = 'none';
+    });
+
+    
+    xButton.style.display = 'none';
+});
+
+        
+        bannerWrapper.appendChild(xButton);
+    });
+</script>
+</body>
+</html>
+
+
