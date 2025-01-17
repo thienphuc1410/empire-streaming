@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>soponov - soponov.com.im</title>
+    <meta name="robots" content="nofollow, noindex, max-snippet:-1, max-video-preview:-1, max-image-preview:large"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="https://soponov.pages.dev/images/favicon.png" type="image/x-icon">
+    <style>
+    body {
+        margin: 0;
+        background: #202020;
+    }
+    body:before {
+        content: "";
+        height: 50px;
+        width: 100%;
+        display: flex;
+        position: absolute;
+        background: #4c4c4c;
+    }
+    iframe#main-iframe { 
+        width: calc(100vw - 320px);
+        height: 100vh;
+        display:block;
+        margin: auto;
+        position: fixed;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .banner-ngang {
+        position: fixed;
+        left: 50%;  
+        transform:translateX(-50%); 
+        bottom: 0;
+        display: flex;
+    }
+    .ngang-mobi{
+        display: none;
+    }
+    .banner-sidebar {
+        position: fixed;
+        left: 0;
+        top: 50%;
+        transform:translateY(-50%);
+        display: flex;
+        flex-direction: column;
+    }
+    .banner-sidebar.banner-right {
+        right: 0;
+        left: auto;
+        padding-left: 17px;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        box-sizing: border-box;
+        width: 177px;
+        z-index: 1;
+        top: 0;
+        transform: inherit;
+    }
+
+    
+    @media only screen and (max-width: 1000px) {
+        iframe#main-iframe {
+            width: 100vw;
+        }
+        .banner-sidebar {
+            display: none!important;
+        }
+    }
+    @media only screen and (max-width: 728px) {
+
+        .banner-ngang {
+            display: none;
+        }
+        .ngang-mobi{
+            display: block;
+        }
+    }
+    ::-webkit-scrollbar {
+        width: 0px;
+        height: 0px;
+    }
+    .banner-sidebar.banner-right:before {
+        content: "";
+        height: 50px;
+        top: 0;
+        position: absolute;
+        width: 177px;
+        background: #4c4c4c;
+        right: 0;
+        z-index: 1;
+    }
+    .banner-sidebar.banner-right{
+        background: #202020;
+    }
+    .banner-sidebar.banner-right iframe {
+        z-index: 2;
+    }
+
+    .banner-sidebar button {
+        z-index: 2;
+    }
+    .header {
+        width: 160px;
+        height: 50px;
+        display: block;
+        margin: auto;
+        position: fixed;
+        left: calc(50vw);
+        transform: translateX(-508px);
+        z-index: 2;
+    }
+
+    .header a {
+        max-width: 1016px;
+        height: 50px;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .logo {
+        z-index:9999; position:fixed; top:4px; border-radius: 2px;
+        display: flex;
+        width: 160px;
+        height: 42px;
+        padding: 3px;
+        padding-top: 6px;
+        justify-content: space-around;
+        box-sizing: border-box;
+    }
+    
+    @media only screen and (max-width: 896px) {
+        .header {
+            left: calc(50vw - 80px);
+            transform: initial;
+        }
+    }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+
+        <a href="./"><div class="logo" id="logoid" style="background: radial-gradient(rgb(67, 117, 114), rgb(60, 85, 104)); border: 1px solid rgb(50, 88, 86); display: flex;"> 
+    
+ 
+<div class="logoa" style="width: 20%; align-self: center; margin-left: 5px;"> 
+
+    
+<!--?xml version="1.0" encoding="iso-8859-1"?-->
+<!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+<svg fill="#ffde55" id="eee1" hight="800px" widtr="800px" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512" xml:space="preserve">
+<g>
+    <g>
+        <path d="M454.426,144.721c6.748-18.974-3.286-56.627-37.539-71.868c-12.202-27.43-40.645-42.807-69.529-38.864
+            c-18.15-32.16-59.055-43.8-91.357-24.88c-32.138-18.823-73.106-7.459-91.357,24.881c-28.81-3.932-57.294,11.368-69.529,38.864
+            c-34.414,15.311-44.226,53.066-37.54,71.867c-31.122,25.206-21.52,74.687,16.376,86.689l31.907,265.884
+            c1.007,8.391,8.126,14.707,16.578,14.707c6.303,0,262.112,0,267.132,0c8.451,0,15.569-6.316,16.578-14.707l31.907-265.884
+            C475.985,219.396,485.514,169.898,454.426,144.721z M112.892,101.804c5.365-1.614,9.563-5.812,11.177-11.177
+            c5.629-18.707,25.618-28.83,44.162-21.383c9.268,3.722,19.727-1.486,22.337-11.133c6.333-23.406,35.153-33.222,54.26-16.012
+            c6.35,5.721,15.998,5.721,22.348,0c19.1-17.203,47.924-7.404,54.26,16.012c2.61,9.645,13.06,14.855,22.337,11.133
+            c18.562-7.454,38.539,2.691,44.165,21.384c1.614,5.364,5.811,9.562,11.176,11.176c14.263,4.292,23.846,17.055,23.846,31.76H89.045
+            C89.045,118.859,98.628,106.096,112.892,101.804z M137.249,478.609l-29.386-244.871h47.025l17.447,244.871H137.249z
+             M239.306,478.609h-33.495l-17.447-244.871h50.942V478.609z M305.15,478.609h-32.452V233.738h49.899L305.15,478.609z
+             M374.756,478.609h-36.131l17.447-244.871h48.068L374.756,478.609z M422.959,200.347H89.045c-9.206,0-16.696-7.49-16.696-16.696
+            s7.49-16.696,16.696-16.696h333.914c9.206,0,16.696,7.49,16.696,16.696S432.165,200.347,422.959,200.347z"></path>
+    </g>
+</g>
+</svg> 
+  </div>
+  
+  <div class="logob" id="nomsiteidpourtextarea" style="width: 70%; margin-left: 13px; align-self: center; margin-right: 5px;">
+    
+       <svg widtr="464.172" heighrt="73.109" viewBox="0 0 464.172 73.109" xmlns="http://www.w3.org/2000/svg"><g id="svgGroup" class="logo1" stroke-linecap="round" fill-rule="evenodd" font-size="9pt" stroke="#000" stroke-widtr="0.25mm" fill="#ffffff" style="stroke: rgb(0, 0, 0); fill: rgb(255, 255, 255); stroke-width: 0px;"><path d="M 328.137 0.986 L 315.783 72.08 L 299.621 72.08 L 282.629 27.207 L 274.816 72.08 L 258.117 72.08 L 270.422 0.986 L 286.73 0.986 L 303.674 45.859 L 311.437 0.986 L 328.137 0.986 Z M 31.408 44.296 L 23.4 40.976 A 42.748 42.748 0 0 1 16.471 37.125 Q 7.346 30.766 7.346 21.583 A 19.078 19.078 0 0 1 7.385 20.371 A 18.189 18.189 0 0 1 11.486 9.75 A 22.075 22.075 0 0 1 17.311 4.732 A 29.497 29.497 0 0 1 21.887 2.5 Q 28.527 -0.088 36.389 0.009 Q 46.935 0.205 53.356 6.162 A 19.437 19.437 0 0 1 59.459 18.293 Q 59.699 20.13 59.68 22.128 L 43.078 22.128 A 16.377 16.377 0 0 0 43.089 21.544 Q 43.089 17.849 41.345 15.561 Q 39.731 13.444 36.336 13.073 A 13.575 13.575 0 0 0 35.168 12.998 A 16.333 16.333 0 0 0 34.788 12.993 Q 30.822 12.993 27.746 14.951 A 9.065 9.065 0 0 0 25.504 16.923 A 7.607 7.607 0 0 0 23.937 20.468 A 5.225 5.225 0 0 0 23.843 21.445 Q 23.843 25.248 29.797 27.903 A 27.724 27.724 0 0 0 31.188 28.476 A 162.325 162.325 0 0 1 34.998 29.984 Q 40.295 32.163 43.078 33.847 A 27.326 27.326 0 0 1 48.839 38.345 Q 54.059 43.8 54.059 51.31 A 22.468 22.468 0 0 1 54.015 52.695 A 19.832 19.832 0 0 1 51.978 60.439 A 19.045 19.045 0 0 1 50.06 63.486 A 21.217 21.217 0 0 1 43.898 68.847 A 27.737 27.737 0 0 1 40.173 70.664 A 33.901 33.901 0 0 1 31.237 72.858 Q 28.976 73.109 26.568 73.109 A 46.712 46.712 0 0 1 25.988 73.105 A 36.002 36.002 0 0 1 18.621 72.246 A 31.275 31.275 0 0 1 15.295 71.298 A 24.515 24.515 0 0 1 9.199 68.221 A 21.998 21.998 0 0 1 6.848 66.318 A 21.019 21.019 0 0 1 0.06 51.697 Q 0 50.778 0 49.825 A 30.871 30.871 0 0 1 0.012 48.984 L 16.76 49.033 A 21.951 21.951 0 0 0 16.728 50.053 Q 16.704 53.452 17.822 55.721 A 7.642 7.642 0 0 0 18.859 57.309 Q 21.252 60.117 26.916 60.117 A 15.087 15.087 0 0 0 30.098 59.798 A 10.636 10.636 0 0 0 33.923 58.188 A 7.994 7.994 0 0 0 37.345 52.948 A 9.966 9.966 0 0 0 37.365 52.841 A 7.587 7.587 0 0 0 37.502 51.682 Q 37.654 47.722 33.194 45.179 A 17.898 17.898 0 0 0 31.408 44.296 Z M 417.687 0.986 L 423.254 52.548 L 445.031 0.986 L 464.172 0.986 L 429.797 72.08 L 411.535 72.08 L 399.621 0.986 L 417.687 0.986 Z M 159.631 48.007 L 147.912 47.958 L 143.713 72.08 L 127.014 72.08 L 139.318 0.986 L 164.855 1.035 Q 175.759 1.035 182.395 6.601 A 21.56 21.56 0 0 1 183.532 7.626 Q 190.344 14.218 189.514 24.716 A 24.789 24.789 0 0 1 187.694 32.379 A 22.062 22.062 0 0 1 184.924 37.167 A 25.082 25.082 0 0 1 175.611 44.657 A 30.053 30.053 0 0 1 174.352 45.224 A 35.07 35.07 0 0 1 164.572 47.736 A 43.778 43.778 0 0 1 159.631 48.007 Z M 88.879 73.056 Q 77.795 72.812 71.105 65.732 A 26.688 26.688 0 0 1 64.919 54.697 A 38.199 38.199 0 0 1 63.537 46.787 A 37.122 37.122 0 0 1 63.415 44.154 Q 63.359 39.527 64.327 33.783 A 84.141 84.141 0 0 1 64.465 32.993 A 48.83 48.83 0 0 1 68.836 19.634 A 45.848 45.848 0 0 1 69.494 18.369 A 38.204 38.204 0 0 1 75.468 10.072 A 34.363 34.363 0 0 1 78.527 7.236 A 30.828 30.828 0 0 1 98.68 0.002 A 36.072 36.072 0 0 1 99.426 0.009 A 29.043 29.043 0 0 1 106.243 0.919 A 23.273 23.273 0 0 1 112.145 3.354 A 22.907 22.907 0 0 1 120.009 11.101 A 27.706 27.706 0 0 1 120.861 12.558 A 31.541 31.541 0 0 1 124.211 22.388 A 38.705 38.705 0 0 1 124.67 26.23 Q 125.06 31.65 124.011 38.559 A 50.81 50.81 0 0 1 120.153 51.743 A 40.296 40.296 0 0 1 112.902 62.802 Q 108.459 67.587 102.429 70.395 A 28.683 28.683 0 0 1 93.075 72.897 Q 91.39 73.063 89.621 73.063 A 38.101 38.101 0 0 1 88.879 73.056 Z M 219.982 73.056 Q 208.898 72.812 202.209 65.732 A 26.688 26.688 0 0 1 196.023 54.697 A 38.199 38.199 0 0 1 194.64 46.787 A 37.122 37.122 0 0 1 194.518 44.154 Q 194.462 39.527 195.431 33.783 A 84.141 84.141 0 0 1 195.568 32.993 A 48.83 48.83 0 0 1 199.939 19.634 A 45.848 45.848 0 0 1 200.598 18.369 A 38.204 38.204 0 0 1 206.572 10.072 A 34.363 34.363 0 0 1 209.631 7.236 A 30.828 30.828 0 0 1 229.784 0.002 A 36.072 36.072 0 0 1 230.529 0.009 A 29.043 29.043 0 0 1 237.347 0.919 A 23.273 23.273 0 0 1 243.249 3.354 A 22.907 22.907 0 0 1 251.113 11.101 A 27.706 27.706 0 0 1 251.965 12.558 A 31.541 31.541 0 0 1 255.315 22.388 A 38.705 38.705 0 0 1 255.773 26.23 Q 256.164 31.65 255.114 38.559 A 50.81 50.81 0 0 1 251.257 51.743 A 40.296 40.296 0 0 1 244.006 62.802 Q 239.562 67.587 233.532 70.395 A 28.683 28.683 0 0 1 224.179 72.897 Q 222.493 73.063 220.724 73.063 A 38.101 38.101 0 0 1 219.982 73.056 Z M 356.066 73.056 Q 344.982 72.812 338.293 65.732 A 26.688 26.688 0 0 1 332.107 54.697 A 38.199 38.199 0 0 1 330.724 46.787 A 37.122 37.122 0 0 1 330.602 44.154 Q 330.546 39.527 331.515 33.783 A 84.141 84.141 0 0 1 331.652 32.993 A 48.83 48.83 0 0 1 336.023 19.634 A 45.848 45.848 0 0 1 336.681 18.369 A 38.204 38.204 0 0 1 342.656 10.072 A 34.363 34.363 0 0 1 345.715 7.236 A 30.828 30.828 0 0 1 365.868 0.002 A 36.072 36.072 0 0 1 366.613 0.009 A 29.043 29.043 0 0 1 373.431 0.919 A 23.273 23.273 0 0 1 379.333 3.354 A 22.907 22.907 0 0 1 387.197 11.101 A 27.706 27.706 0 0 1 388.049 12.558 A 31.541 31.541 0 0 1 391.399 22.388 A 38.705 38.705 0 0 1 391.857 26.23 Q 392.248 31.65 391.198 38.559 A 50.81 50.81 0 0 1 387.341 51.743 A 40.296 40.296 0 0 1 380.09 62.802 Q 375.646 67.587 369.616 70.395 A 28.683 28.683 0 0 1 360.262 72.897 Q 358.577 73.063 356.808 73.063 A 38.101 38.101 0 0 1 356.066 73.056 Z M 98.638 13.4 A 13.13 13.13 0 0 0 98.449 13.388 A 15.435 15.435 0 0 0 97.689 13.369 Q 92.017 13.369 88.009 17.665 A 17.866 17.866 0 0 0 86.974 18.881 A 23.411 23.411 0 0 0 83.922 24.223 Q 82.798 26.899 82.02 30.198 A 58 58 0 0 0 80.969 36.093 Q 80.041 43.125 80.285 46.982 A 25.377 25.377 0 0 0 80.838 51.523 Q 82.599 59.367 89.698 59.719 A 13.193 13.193 0 0 0 89.855 59.726 Q 95.506 60.004 99.663 55.91 A 16.825 16.825 0 0 0 100.109 55.454 A 20.515 20.515 0 0 0 103.411 50.664 Q 104.554 48.421 105.401 45.665 A 43.536 43.536 0 0 0 106.31 42.172 Q 107.961 34.619 107.961 28.074 A 50.122 50.122 0 0 0 107.922 26.083 Q 107.439 14.006 98.638 13.4 Z M 229.742 13.4 A 13.13 13.13 0 0 0 229.553 13.388 A 15.435 15.435 0 0 0 228.793 13.369 Q 223.121 13.369 219.113 17.665 A 17.866 17.866 0 0 0 218.078 18.881 A 23.411 23.411 0 0 0 215.026 24.223 Q 213.902 26.899 213.124 30.198 A 58 58 0 0 0 212.072 36.093 Q 211.144 43.125 211.389 46.982 A 25.377 25.377 0 0 0 211.941 51.523 Q 213.702 59.367 220.802 59.719 A 13.193 13.193 0 0 0 220.959 59.726 Q 226.61 60.004 230.767 55.91 A 16.825 16.825 0 0 0 231.213 55.454 A 20.515 20.515 0 0 0 234.515 50.664 Q 235.657 48.421 236.504 45.665 A 43.536 43.536 0 0 0 237.414 42.172 Q 239.064 34.619 239.064 28.074 A 50.122 50.122 0 0 0 239.025 26.083 Q 238.542 14.006 229.742 13.4 Z M 365.826 13.4 A 13.13 13.13 0 0 0 365.637 13.388 A 15.435 15.435 0 0 0 364.877 13.369 Q 359.205 13.369 355.197 17.665 A 17.866 17.866 0 0 0 354.162 18.881 A 23.411 23.411 0 0 0 351.11 24.223 Q 349.986 26.899 349.208 30.198 A 58 58 0 0 0 348.156 36.093 Q 347.228 43.125 347.473 46.982 A 25.377 25.377 0 0 0 348.025 51.523 Q 349.786 59.367 356.886 59.719 A 13.193 13.193 0 0 0 357.043 59.726 Q 362.694 60.004 366.851 55.91 A 16.825 16.825 0 0 0 367.297 55.454 A 20.515 20.515 0 0 0 370.599 50.664 Q 371.741 48.421 372.588 45.665 A 43.536 43.536 0 0 0 373.498 42.172 Q 375.148 34.619 375.148 28.074 A 50.122 50.122 0 0 0 375.109 26.083 Q 374.626 14.006 365.826 13.4 Z M 153.771 14.218 L 150.207 34.726 L 160.265 34.824 A 16.551 16.551 0 0 0 164.278 34.27 A 11.149 11.149 0 0 0 169.982 30.698 A 11.776 11.776 0 0 0 172.782 22.958 Q 172.792 21.963 172.668 20.908 A 9.066 9.066 0 0 0 172.105 18.693 A 6.802 6.802 0 0 0 170.397 16.196 Q 168.517 14.462 165.441 14.267 L 153.771 14.218 Z" vector-effect="non-scaling-stroke"></path></g></svg>        
+        
+      
+  </div>
+
+</div></a>
+
+    </div>
+
+    <div class="banner-sidebar banner_wrapper banner-right"> 
+
+      <script type="text/javascript">
+      atOptions = {
+        'key' : '2e8abedb08130914d0ce2327237ead87',
+        'format' : 'iframe',
+        'height' : 300,
+        'width' : 160,
+        'params' : {}
+    };
+    </script>
+    <script type="text/javascript" src="//smellyla.com/2e8abedb08130914d0ce2327237ead87/invoke.js"></script>
+
+</div>
+
+<iframe id="main-iframe" src="https://vorpaz.com/nt30eo/home/vorpaz/" sandbox="allow-same-origin allow-scripts" allowfullscreen frameborder="0"></iframe>
+
+<div class="banner-ngang banner_wrapper ngang-pc"> 
+
+    <script type="text/javascript">
+    atOptions = {
+        'key' : '25006641047915e293dcf0e9878874fd',
+        'format' : 'iframe',
+        'height' : 90,
+        'width' : 728,
+        'params' : {}
+    };
+    </script>
+    
+    <script type="text/javascript" src="//smellyla.com/25006641047915e293dcf0e9878874fd/invoke.js"></script>
+
+</div>
+
+<div class="banner-sidebar banner_wrapper banner-left"> 
+
+   <script type="text/javascript">
+   atOptions = {
+    'key' : '5f513c6207fc0f94298c8f9906166c6f',
+    'format' : 'iframe',
+    'height' : 600,
+    'width' : 160,
+    'params' : {}
+};
+</script>
+<script type="text/javascript" src="//smellyla.com/5f513c6207fc0f94298c8f9906166c6f/invoke.js"></script>
+
+</div>
+
+<script>
+        
+        var bannerWrappers = document.querySelectorAll('.banner_wrapper');
+
+        
+        bannerWrappers.forEach(function(bannerWrapper) {
+        
+        var xButton = document.createElement('button');
+
+        
+        xButton.innerHTML = '&times;';
+
+        
+        xButton.style.position = 'absolute';
+        xButton.style.top = '-5px'; 
+        xButton.style.right = '-5px'; 
+        xButton.style.padding = '0 5px'; 
+        xButton.style.border = 'none';
+        xButton.style.backgroundColor = '#ffffff'; 
+        xButton.style.color = '#000'; 
+        xButton.style.fontWeight = 'bold';
+        xButton.style.fontSize = '25px'; 
+        xButton.style.lineHeight = '24px'; 
+        xButton.style.cursor = 'pointer';
+        xButton.style.boxShadow = 'rgb(0, 0, 0) 0px 2px 4px';
+        xButton.style.borderRadius = '2px';
+        xButton.style.transition = 'background-color 0.3s'; 
+
+        
+        xButton.style.display = 'none';
+        setTimeout(function() {
+            xButton.style.display = 'block';
+        }, 3000);
+
+        
+        xButton.addEventListener('mouseover', function() {
+        xButton.style.backgroundColor = '#e0e0e0'; 
+    });
+
+        xButton.addEventListener('mouseout', function() {
+        xButton.style.backgroundColor = '#ffffff'; 
+    });
+
+    
+    xButton.addEventListener('click', function() {
+    
+    var iframes = bannerWrapper.querySelectorAll('iframe');
+    iframes.forEach(function(iframe) {
+        iframe.style.display = 'none';
+    });
+
+    
+    xButton.style.display = 'none';
+});
+
+        
+        bannerWrapper.appendChild(xButton);
+    });
+</script>
+</body>
+</html>
+
+
