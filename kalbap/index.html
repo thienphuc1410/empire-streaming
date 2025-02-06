@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Kalbap - kalbap.com.im</title>
+    <meta name="robots" content="nofollow, noindex, max-snippet:-1, max-video-preview:-1, max-image-preview:large"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="https://kalbap.pages.dev/images/favicon.png" type="image/x-icon">
+    <style>
+    body {
+        margin: 0;
+        background: #202020;
+    }
+    body:before {
+        content: "";
+        height: 50px;
+        width: 100%;
+        display: flex;
+        position: absolute;
+        background: #4c4c4c;
+    }
+    iframe#main-iframe { 
+        width: calc(100vw - 320px);
+        height: 100vh;
+        display:block;
+        margin: auto;
+        position: fixed;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .banner-ngang {
+        position: fixed;
+        left: 50%;  
+        transform:translateX(-50%); 
+        bottom: 0;
+        display: flex;
+    }
+    .ngang-mobi{
+        display: none;
+    }
+    .banner-sidebar {
+        position: fixed;
+        left: 0;
+        top: 50%;
+        transform:translateY(-50%);
+        display: flex;
+        flex-direction: column;
+    }
+    .banner-sidebar.banner-right {
+        right: 0;
+        left: auto;
+        padding-left: 17px;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        box-sizing: border-box;
+        width: 177px;
+        z-index: 1;
+        top: 0;
+        transform: inherit;
+    }
+
+    
+    @media only screen and (max-width: 1000px) {
+        iframe#main-iframe {
+            width: 100vw;
+        }
+        .banner-sidebar {
+            display: none!important;
+        }
+    }
+    @media only screen and (max-width: 728px) {
+
+        .banner-ngang {
+            display: none;
+        }
+        .ngang-mobi{
+            display: block;
+        }
+    }
+    ::-webkit-scrollbar {
+        width: 0px;
+        height: 0px;
+    }
+    .banner-sidebar.banner-right:before {
+        content: "";
+        height: 50px;
+        top: 0;
+        position: absolute;
+        width: 177px;
+        background: #4c4c4c;
+        right: 0;
+        z-index: 1;
+    }
+    .banner-sidebar.banner-right{
+        background: #202020;
+    }
+    .banner-sidebar.banner-right iframe {
+        z-index: 2;
+    }
+
+    .banner-sidebar button {
+        z-index: 2;
+    }
+    .header {
+        width: 160px;
+        height: 50px;
+        display: block;
+        margin: auto;
+        position: fixed;
+        left: calc(50vw);
+        transform: translateX(-508px);
+        z-index: 2;
+    }
+
+    .header a {
+        max-width: 1016px;
+        height: 50px;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .logo {
+        z-index:9999; position:fixed; top:4px; border-radius: 2px;
+        display: flex;
+        width: 160px;
+        height: 42px;
+        padding: 3px;
+        padding-top: 6px;
+        justify-content: space-around;
+        box-sizing: border-box;
+    }
+    
+    @media only screen and (max-width: 896px) {
+        .header {
+            left: calc(50vw - 80px);
+            transform: initial;
+        }
+    }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+
+        <a href="./"><div class="logo"><div id="kalbap" class="kalbapd" style="background: linear-gradient(to right, rgb(45, 45, 45), rgb(71, 61, 56)); border: unset; display: flex;">
+
+
+<div style="width: 10%; align-self: center; margin-left: 7px;"> 
+
+    
+<!--?xml version="1.0" encoding="utf-8"?--><!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+<svg kalbapy="800px" kalbape="800px" viewBox="0 0 24 24" "none"="" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M11.9426 1.25H12.0574C14.3658 1.24999 16.1748 1.24998 17.5863 1.43975C19.031 1.63399 20.1711 2.03933 21.0659 2.93414C21.9607 3.82895 22.366 4.96897 22.5603 6.41371C22.75 7.82519 22.75 9.63423 22.75 11.9426V12.0574C22.75 14.3658 22.75 16.1748 22.5603 17.5863C22.366 19.031 21.9607 20.1711 21.0659 21.0659C20.1711 21.9607 19.031 22.366 17.5863 22.5603C16.1748 22.75 14.3658 22.75 12.0574 22.75H11.9426C9.63423 22.75 7.82519 22.75 6.41371 22.5603C4.96897 22.366 3.82895 21.9607 2.93414 21.0659C2.03933 20.1711 1.63399 19.031 1.43975 17.5863C1.24998 16.1748 1.24999 14.3658 1.25 12.0574V11.9426C1.24999 9.63423 1.24998 7.82519 1.43975 6.41371C1.63399 4.96897 2.03933 3.82895 2.93414 2.93414C3.82895 2.03933 4.96897 1.63399 6.41371 1.43975C7.82519 1.24998 9.63423 1.24999 11.9426 1.25ZM6.25 2.98181C5.18517 3.16506 4.5083 3.4813 3.9948 3.9948C3.4813 4.50829 3.16506 5.18517 2.98181 6.25H6.25V2.98181ZM7.75 2.81997V6.25H11.25V2.75028C9.8547 2.75175 8.70923 2.76108 7.75 2.81997ZM12.75 2.75028V6.25H16.25V2.81997C15.2908 2.76108 14.1453 2.75175 12.75 2.75028ZM17.75 2.98181V6.25H21.0182C20.8349 5.18517 20.5187 4.5083 20.0052 3.9948C19.4917 3.4813 18.8148 3.16506 17.75 2.98181ZM21.18 7.75H17.0006C17.0004 7.75 17.0008 7.75 17.0006 7.75C17.0004 7.75 16.9996 7.75 16.9994 7.75L12.0009 7.75C12.0006 7.75 12.0011 7.75 12.0009 7.75C12.0006 7.75 11.9994 7.75 11.9991 7.75L7.00106 7.75C7.00071 7.75 7.00035 7.75 7 7.75C6.99965 7.75 6.9993 7.75 6.99894 7.75H2.81997C2.75085 8.87584 2.75 10.2582 2.75 12C2.75 13.7418 2.75085 15.1242 2.81997 16.25L21.18 16.25C21.2491 15.1242 21.25 13.7418 21.25 12C21.25 10.2582 21.2491 8.87584 21.18 7.75ZM21.0182 17.75H17.75V21.0182C18.8148 20.8349 19.4917 20.5187 20.0052 20.0052C20.5187 19.4917 20.8349 18.8148 21.0182 17.75ZM16.25 21.18V17.75H12.75V21.2497C14.1453 21.2483 15.2908 21.2389 16.25 21.18ZM11.25 21.2497V17.75H7.75L7.75 21.18C8.70923 21.2389 9.8547 21.2483 11.25 21.2497ZM6.25 21.0182L6.25 17.75H2.98181C3.16506 18.8148 3.4813 19.4917 3.9948 20.0052C4.50829 20.5187 5.18517 20.8349 6.25 21.0182ZM12.7793 9.74813C12.796 9.75934 12.8127 9.77059 12.8295 9.78187C12.845 9.79229 12.8605 9.80266 12.8759 9.81301C13.3656 10.1421 13.8034 10.4362 14.111 10.7196C14.445 11.0273 14.75 11.4337 14.75 12C14.75 12.5663 14.445 12.9727 14.111 13.2804C13.8034 13.5638 13.3656 13.8579 12.8759 14.187L12.8295 14.2181C12.8128 14.2294 12.796 14.2407 12.7794 14.2519C12.2858 14.5836 11.8415 14.8824 11.4681 15.0551C11.0758 15.2365 10.5194 15.3914 9.98642 15.0386C9.49674 14.7146 9.36158 14.1731 9.3061 13.7395C9.24993 13.3004 9.24996 12.7235 9.25 12.0514V11.9486C9.24996 11.2765 9.24993 10.6996 9.3061 10.2605C9.36158 9.82686 9.49674 9.28543 9.98642 8.96138C10.5194 8.60864 11.0758 8.76347 11.4681 8.94491C11.8414 9.1176 12.2858 9.41635 12.7793 9.74813ZM10.8193 10.2977C10.8255 10.3004 10.8318 10.3033 10.8384 10.3063C11.0893 10.4224 11.4327 10.6504 11.9928 11.0268C12.5436 11.397 12.8823 11.6272 13.0946 11.8228C13.1937 11.9141 13.232 11.9688 13.2457 11.9934C13.2472 11.9961 13.2483 11.9983 13.2491 12C13.2483 12.0017 13.2472 12.0039 13.2457 12.0066C13.232 12.0312 13.1937 12.0859 13.0946 12.1772C12.8823 12.3728 12.5436 12.603 11.9928 12.9732C11.4327 13.3496 11.0893 13.5776 10.8384 13.6937C10.8318 13.6967 10.8255 13.6996 10.8193 13.7023C10.8109 13.663 10.8021 13.6127 10.794 13.5491C10.7515 13.2171 10.75 12.738 10.75 12C10.75 11.262 10.7515 10.7829 10.794 10.4509C10.8021 10.3873 10.8109 10.337 10.8193 10.2977Z" fill="#bb9586" id="eee2"></path>
+</svg> 
+  </div>
+  
+  
+  <div id="idpourentrersurappend" style="width: 35%; margin-left: 13px; align-self: center;">
+  
+  
+  
+  
+  <div style="margin-top: 3px;">
+    
+       <svg kalbapy="374.358" heighrt="71.094" viewBox="0 0 374.358 71.094" xmlns="http://www.w3.org/2000/svg"><g id="svgGroup" class="logo1" stroke-linecap="round" fill-rule="evenodd" font-size="9pt" stroke="#000" stroke-kalbapy="0.25mm" fill="#bb9586" style="stroke: rgb(0, 0, 0); fill: rgb(187, 149, 134); stroke-width: 0px;"><path d="M 38.574 71.094 L 28.564 44.824 L 19.873 52.979 L 16.699 71.094 L 0 71.094 L 12.305 0 L 29.053 0 L 23.73 30.42 L 30.664 21.973 L 49.121 0 L 70.801 0 L 41.309 32.178 L 57.666 71.094 L 38.574 71.094 Z M 106.006 71.094 L 104.297 57.813 L 81.592 57.813 L 75.293 71.094 L 56.885 71.094 L 94.531 0 L 110.254 0 L 123.389 71.094 L 106.006 71.094 Z M 288.672 71.094 L 286.963 57.813 L 264.258 57.813 L 257.959 71.094 L 239.551 71.094 L 277.197 0 L 292.92 0 L 306.055 71.094 L 288.672 71.094 Z M 210.693 71.094 L 182.178 71.094 L 194.482 0 L 217.09 0.049 A 57.571 57.571 0 0 1 224.079 0.47 Q 232.323 1.512 237.061 5.127 Q 243.652 10.156 243.066 19.238 A 17.445 17.445 0 0 1 240.351 27.813 Q 237.271 32.52 230.762 35.156 Q 234.912 36.621 237.231 40.454 Q 239.551 44.287 239.209 49.658 Q 238.525 59.961 231.079 65.527 Q 224.866 70.172 214.829 70.941 A 54.147 54.147 0 0 1 210.693 71.094 Z M 158.154 0 L 148.096 57.91 L 177.051 57.91 L 174.756 71.094 L 129.102 71.094 L 141.406 0 L 158.154 0 Z M 344.385 47.021 L 332.666 46.973 L 328.467 71.094 L 311.768 71.094 L 324.072 0 L 349.609 0.049 Q 360.513 0.049 367.149 5.615 A 21.56 21.56 0 0 1 368.286 6.641 Q 375.098 13.232 374.268 23.73 A 24.789 24.789 0 0 1 372.448 31.393 A 22.062 22.062 0 0 1 369.678 36.182 A 25.082 25.082 0 0 1 360.365 43.671 A 30.053 30.053 0 0 1 359.106 44.238 A 35.07 35.07 0 0 1 349.326 46.75 A 43.778 43.778 0 0 1 344.385 47.021 Z M 338.525 13.232 L 334.961 33.74 L 345.02 33.838 A 16.551 16.551 0 0 0 349.032 33.284 A 11.149 11.149 0 0 0 354.736 29.712 A 11.776 11.776 0 0 0 357.536 21.973 Q 357.546 20.977 357.422 19.922 A 9.066 9.066 0 0 0 356.859 17.707 A 6.802 6.802 0 0 0 355.151 15.21 Q 353.271 13.477 350.195 13.281 L 338.525 13.232 Z M 216.455 40.918 L 204.15 40.869 L 201.172 57.91 L 211.182 57.959 A 15.659 15.659 0 0 0 214.732 57.576 A 11.387 11.387 0 0 0 218.994 55.64 A 9.111 9.111 0 0 0 222.696 49.523 A 11.083 11.083 0 0 0 222.705 49.463 Q 223.814 42.848 219.011 41.342 A 10.326 10.326 0 0 0 216.455 40.918 Z M 99.463 20.068 L 87.842 44.58 L 102.588 44.58 L 99.463 20.068 Z M 282.129 20.068 L 270.508 44.58 L 285.254 44.58 L 282.129 20.068 Z M 208.936 13.232 L 206.055 29.639 L 213.916 29.688 Q 224.805 29.443 226.123 21.338 A 12.462 12.462 0 0 0 226.231 20.325 Q 226.621 14.186 219.856 13.397 A 18.42 18.42 0 0 0 217.822 13.281 L 208.936 13.232 Z" vector-effect="non-scaling-stroke"></path></g></svg>       
+        
+     </div> 
+     
+  </div>
+
+
+
+
+
+</div></div></a>
+
+    </div>
+
+    <div class="banner-sidebar banner_wrapper banner-right"> 
+
+      <script type="text/javascript">
+      atOptions = {
+        'key' : '3946a60eff35edd28f97e38c0b1b49f8',
+        'format' : 'iframe',
+        'height' : 300,
+        'width' : 160,
+        'params' : {}
+    };
+    </script>
+    <script type="text/javascript" src="//smellyla.com/3946a60eff35edd28f97e38c0b1b49f8/invoke.js"></script>
+
+</div>
+
+<iframe id="main-iframe" src="https://vorpaz.com/nt30eo/home/vorpaz/" sandbox="allow-same-origin allow-scripts" allowfullscreen frameborder="0"></iframe>
+
+<div class="banner-ngang banner_wrapper ngang-pc"> 
+
+    <script type="text/javascript">
+    atOptions = {
+        'key' : 'a063d95bcb7fbcd09a99a906966f73a1',
+        'format' : 'iframe',
+        'height' : 90,
+        'width' : 728,
+        'params' : {}
+    };
+    </script>
+    
+    <script type="text/javascript" src="//smellyla.com/a063d95bcb7fbcd09a99a906966f73a1/invoke.js"></script>
+
+</div>
+
+<div class="banner-sidebar banner_wrapper banner-left"> 
+
+   <script type="text/javascript">
+   atOptions = {
+    'key' : 'c33a281fde9d8eba033dc8dd6210d9d5',
+    'format' : 'iframe',
+    'height' : 600,
+    'width' : 160,
+    'params' : {}
+};
+</script>
+<script type="text/javascript" src="//smellyla.com/c33a281fde9d8eba033dc8dd6210d9d5/invoke.js"></script>
+
+</div>
+
+<script>
+        
+        var bannerWrappers = document.querySelectorAll('.banner_wrapper');
+
+        
+        bannerWrappers.forEach(function(bannerWrapper) {
+        
+        var xButton = document.createElement('button');
+
+        
+        xButton.innerHTML = '&times;';
+
+        
+        xButton.style.position = 'absolute';
+        xButton.style.top = '-5px'; 
+        xButton.style.right = '-5px'; 
+        xButton.style.padding = '0 5px'; 
+        xButton.style.border = 'none';
+        xButton.style.backgroundColor = '#ffffff'; 
+        xButton.style.color = '#000'; 
+        xButton.style.fontWeight = 'bold';
+        xButton.style.fontSize = '25px'; 
+        xButton.style.lineHeight = '24px'; 
+        xButton.style.cursor = 'pointer';
+        xButton.style.boxShadow = 'rgb(0, 0, 0) 0px 2px 4px';
+        xButton.style.borderRadius = '2px';
+        xButton.style.transition = 'background-color 0.3s'; 
+
+        
+        xButton.style.display = 'none';
+        setTimeout(function() {
+            xButton.style.display = 'block';
+        }, 3000);
+
+        
+        xButton.addEventListener('mouseover', function() {
+        xButton.style.backgroundColor = '#e0e0e0'; 
+    });
+
+        xButton.addEventListener('mouseout', function() {
+        xButton.style.backgroundColor = '#ffffff'; 
+    });
+
+    
+    xButton.addEventListener('click', function() {
+    
+    var iframes = bannerWrapper.querySelectorAll('iframe');
+    iframes.forEach(function(iframe) {
+        iframe.style.display = 'none';
+    });
+
+    
+    xButton.style.display = 'none';
+});
+
+        
+        bannerWrapper.appendChild(xButton);
+    });
+</script>
+</body>
+</html>
+
+
